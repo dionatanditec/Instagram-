@@ -1,0 +1,12 @@
+# Imagens, vídeos e áudios pesados ficam só no computador, não no GitHub
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.mp3
+*.wav
+*.m4a
+*.psd
+# Segredos (tokens de API, Meta, agendadores)
+.env
+.env.*
