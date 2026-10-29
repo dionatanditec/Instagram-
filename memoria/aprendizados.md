@@ -31,5 +31,5 @@ Formato (mais recentes no topo):
   no carro eram os mais recentes).
 - Principais achados: capas sem gancho (pedaço da legenda automática), legenda com erros e palavrão,
   quase sem carrossel, grade sem identidade.
-- Próximo: pedir topo do perfil, aba de Reels e insights para fechar a nota.
+- Próximo: pedir aba de Reels e insights para fechar a nota.
 
