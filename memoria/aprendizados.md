@@ -24,4 +24,9 @@ Formato (mais recentes no topo):
 
 ## Registros
 
-- (ainda sem registros — aguardando os primeiros números da Taína)
+## 2026-10-29 — @pedrovastreinador — diagnóstico inicial (só grade)
+- Nota parcial: Conteúdo 17/30 · Grade 3/8 · Perfil e Resultados não avaliados (faltaram prints). Confiança baixa.
+- Principais achados: capas sem gancho (pedaço da legenda automática), legenda com erros e palavrão,
+  quase sem carrossel, grade sem identidade.
+- Próximo: pedir topo do perfil, aba de Reels e insights para fechar a nota.
+

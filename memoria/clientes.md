@@ -29,6 +29,16 @@
 - @ do Instagram: ______
 - Objetivo: ______
 
+## Perfil 3 — Pedro Vas (@pedrovastreinador)
+
+- **Profissão:** personal trainer / treinador de musculação (aparece nos vídeos).
+- **Relação com o Dionatan:** ______ (cliente? prospect?)
+- **Seguidores:** ______ (não aparece nos prints) · Cidade: ______
+- **Conteúdo atual (2026-10-29):** quase só Reels de rosto falando (muitos no carro) e cortes de exercícios;
+  temas: progressão, descanso, frequência, iniciantes, emagrecimento, mitos.
+- **Objetivo aparente:** autoridade + consultoria (a confirmar).
+- **Diagnóstico:** `conteudo/diagnosticos/2026-10-29-pedrovastreinador.md`.
+
 ## Concorrentes e referências (contas que inspiram)
 
 | Perfil | Por que é referência | Tamanho aproximado |
