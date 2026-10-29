@@ -29,14 +29,15 @@
 - @ do Instagram: ______
 - Objetivo: ______
 
-## Perfil 3 — Pedro Vas (@pedrovastreinador)
+## Perfil 3 — Pedro Vasconcelos (@pedrovastreinador)
 
-- **Profissão:** personal trainer / treinador de musculação (aparece nos vídeos).
+- **Nome no perfil:** Pedro Vasconcelos | Estética - Performance · Categoria: Coach.
+- **Profissão:** treinador / coach de musculação, vende consultoria ("Aplicar para consultoria", link no WhatsApp).
 - **Relação com o Dionatan:** ______ (cliente? prospect?)
-- **Seguidores:** ______ (não aparece nos prints) · Cidade: ______
+- **Números (2026-10-29):** 710 posts · 9.422 seguidores · 493 seguindo · Cidade: ______
 - **Conteúdo atual (2026-10-29):** quase só Reels de rosto falando (muitos no carro) e cortes de exercícios;
   temas: progressão, descanso, frequência, iniciantes, emagrecimento, mitos.
-- **Objetivo aparente:** autoridade + consultoria (a confirmar).
+- **Objetivo aparente:** vender consultoria (bio pede aplicação pelo WhatsApp).
 - **Diagnóstico:** `conteudo/diagnosticos/2026-10-29-pedrovastreinador.md`.
 
 ## Concorrentes e referências (contas que inspiram)

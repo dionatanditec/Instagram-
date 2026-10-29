@@ -24,8 +24,11 @@ Formato (mais recentes no topo):
 
 ## Registros
 
-## 2026-10-29 — @pedrovastreinador — diagnóstico inicial (só grade)
-- Nota parcial: Conteúdo 17/30 · Grade 3/8 · Perfil e Resultados não avaliados (faltaram prints). Confiança baixa.
+## 2026-10-29 — @pedrovastreinador — diagnóstico v2 (topo + grade)
+- Nota parcial: Perfil 28/50 · Conteúdo 17/30 · Resultados não avaliados. 45 de 80 (≈56%). Confiança média.
+- Achados do topo: bio boa (dor + oferta + CTA + WhatsApp); zero destaques; zero fixados; sem prova (CREF, anos, alunos).
+- Lição para o /diagnostico: não supor a ordem da grade sem o print do topo (a v1 errou ao supor que os vídeos
+  no carro eram os mais recentes).
 - Principais achados: capas sem gancho (pedaço da legenda automática), legenda com erros e palavrão,
   quase sem carrossel, grade sem identidade.
 - Próximo: pedir topo do perfil, aba de Reels e insights para fechar a nota.
