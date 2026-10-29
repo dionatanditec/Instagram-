@@ -7,6 +7,12 @@
 *.wav
 *.m4a
 *.psd
+# Prints e fotos de perfis de clientes (privacidade)
+*.png
+*.jpg
+*.jpeg
+*.heic
+*.webp
 # Segredos (tokens de API, Meta, agendadores)
 .env
 .env.*

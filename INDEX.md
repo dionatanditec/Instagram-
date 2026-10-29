@@ -22,8 +22,10 @@ Mapa do repositório. Atualize sempre que criar ou mover arquivos/pastas.
 | `.claude/skills/calendario-conteudo/` | Skill: pilares de conteúdo e calendário semanal/mensal |
 | `.claude/skills/analise-desempenho/` | Skill: análise de métricas e registro de aprendizados |
 | `.claude/skills/otimizar-perfil/` | Skill: auditoria de perfil (nota de 0 a 100) e reescrita da bio |
+| `.claude/skills/diagnostico/` | Comando `/diagnostico`: diagnóstico completo do perfil do cliente a partir de prints |
 | `conteudo/leia-me.md` | Como a pasta de conteúdo é organizada |
 | `conteudo/planejamento/` | Calendários e planos aprovados |
 | `conteudo/legendas/` | Legendas e roteiros prontos para publicar |
 | `conteudo/relatorios/` | Relatórios de desempenho |
+| `conteudo/diagnosticos/` | Relatórios do `/diagnostico` (só texto; prints não sobem) |
 | `.gitignore` | Impede subir vídeos, áudios e arquivos de segredos (.env) |

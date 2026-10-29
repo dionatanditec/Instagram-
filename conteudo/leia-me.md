@@ -5,3 +5,4 @@ Materiais produzidos e aprovados. Só texto (imagens e vídeos ficam no computad
 - `planejamento/` — calendários e pilares (`AAAA-MM-calendario.md`)
 - `legendas/` — roteiros e legendas prontos (`AAAA-MM-DD-assunto.md`)
 - `relatorios/` — análises de desempenho (`AAAA-MM-DD-relatorio.md`)
+- `diagnosticos/` — relatórios do `/diagnostico` (`AAAA-MM-DD-perfil.md`)

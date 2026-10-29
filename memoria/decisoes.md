@@ -2,6 +2,13 @@
 
 Formato: data — decisão — motivo. Mais recentes no topo.
 
+## 2026-10-29 — Comando /diagnostico
+- **Decisão:** criar a skill `diagnostico` (comando `/diagnostico @perfil` + prints do perfil do cliente):
+  nota de 0 a 100 (perfil 50, conteúdo 30, resultados 20), 5 problemas principais, correções prontas
+  e plano de 30 dias. Relatório salvo em `conteudo/diagnosticos/`.
+- **Regra:** prints e fotos de clientes não sobem para o GitHub (`.gitignore` bloqueia imagens).
+- **Motivo:** pedido do Dionatan.
+
 ## 2026-10-29 — Plugin Marketing (Anthropic) instalado
 - **Decisão:** instalar o plugin oficial Marketing no escopo do projeto (`.claude/settings.json`).
   Código lido por inteiro antes; nenhum conector externo (Gmail, Slack, Canva…) foi conectado.
