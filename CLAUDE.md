@@ -28,6 +28,15 @@ Repositório irmão: `Edi-o-videos` (edição dos vídeos). Este repositório de
   (`.claude/agents/agente-instagram.md`), que usa as skills de `.claude/skills/`.
 - Toda entrega passa pelo **checklist de qualidade** do coordenador antes de ir ao Dionatan.
 
+## Plugin instalado: Marketing (Anthropic)
+
+- Carregado por `.claude/settings.json`. Skills úteis: `brand-review`, `campaign-plan`,
+  `competitive-brief`, `performance-report`.
+- **As regras de `memoria/` e as skills próprias têm prioridade sobre o plugin.** Ele é genérico
+  (empresas B2B, em inglês) e sugere urgência, depoimentos e blocos de hashtags — nada disso vale aqui.
+- **Não conectar nenhum dos conectores do plugin** (Gmail, Google Calendar, Slack, Canva, HubSpot etc.)
+  sem aprovação do Dionatan.
+
 ## Regras
 
 - **Nunca instalar skill, agente ou plugin de terceiros sem aprovação do Dionatan.**

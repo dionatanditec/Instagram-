@@ -13,6 +13,7 @@ Mapa do repositório. Atualize sempre que criar ou mover arquivos/pastas.
 | `memoria/aprendizados.md` | Diário de resultados reais: o que funcionou e o que não funcionou |
 | `memoria/decisoes.md` | Registro de decisões |
 | `memoria/plugins-avaliados.md` | Skills/plugins de terceiros pesquisados, código lido e status de aprovação |
+| `.claude/settings.json` | Ativa o plugin Marketing (Anthropic) neste projeto |
 | `.claude/agents/coordenador-instagram.md` | Coordenador: planeja, delega, revisa e registra |
 | `.claude/agents/agente-instagram.md` | Agente executor: produz roteiros, legendas, carrosséis, planos e análises |
 | `.claude/skills/roteiro-reels/` | Skill: roteiro de Reels de 30–60 s com gancho, batidas e texto na tela |

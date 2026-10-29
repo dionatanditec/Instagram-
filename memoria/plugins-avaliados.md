@@ -1,6 +1,6 @@
 # Skills e plugins de terceiros avaliados
 
-Pesquisa automática feita em **2026-10-29**. **Nada foi instalado.**
+Pesquisa automática feita em **2026-10-29**. Instalado até agora: só o plugin **Marketing** (Anthropic), com aprovação.
 Status possíveis: 🔍 avaliado · ⏳ aguardando aprovação do Dionatan · ✅ aprovado · ❌ recusado.
 
 ## Pacotes de skills no GitHub (código lido)
@@ -43,14 +43,41 @@ Status possíveis: 🔍 avaliado · ⏳ aguardando aprovação do Dionatan · �
 
 | Plugin | Quem publica | O que faz | Recomendação |
 |---|---|---|---|
-| **Marketing** | Anthropic (oficial) | Criar conteúdo, planejar campanhas, voz de marca, concorrentes, relatórios | ⏳ melhor candidato — oficial, sem chave de API |
+| **Marketing** | Anthropic (oficial) | Criar conteúdo, planejar campanhas, voz de marca, concorrentes, relatórios | ✅ instalado em 2026-10-29 (ver abaixo) |
 | **Social Media Skills** (106 skills) | Comunidade (Frank Heijdenrijk) | Estratégia, escrita, vídeo, design, crescimento, analytics | 🔍 ler antes; muito amplo |
 | Posty / Ayrshare | Comunidade | Agendar e publicar em várias redes | ❌ por enquanto (publicação automática, pede conta) |
 | Windsor.ai | Parceiro | Dados de anúncios Meta/Instagram | 🔍 só se a Taína fizer anúncios pagos |
 
+## Plugin Marketing (Anthropic) — ✅ instalado
+
+- **Aprovado pelo Dionatan em 2026-10-29.** Fonte: https://github.com/anthropics/knowledge-work-plugins
+  (pasta `marketing`, versão 1.2.0, commit `2574e29`, licença Apache 2.0).
+- **Como foi instalado:** escopo de projeto, em `.claude/settings.json` (marketplace
+  `knowledge-work-plugins` + `marketing@knowledge-work-plugins`). Toda sessão neste repositório carrega o plugin.
+  Para desinstalar: apagar essas duas entradas do arquivo.
+- **Código lido por inteiro (12 arquivos, ~2.300 linhas):** 8 skills em Markdown (`draft-content`,
+  `content-creation`, `campaign-plan`, `brand-review`, `competitive-brief`, `performance-report`,
+  `seo-audit`, `email-sequence`), README, CONNECTORS, LICENSE e `.mcp.json`. A cópia instalada foi
+  comparada com a lida: idêntica.
+- **Não tem** scripts, hooks, agentes nem programas: as skills são só instruções em texto.
+  Custo: ~870 tokens fixos por sessão.
+
+### Riscos encontrados e como tratamos
+1. **13 conectores externos declarados** em `.mcp.json`: Slack, Canva, Figma, HubSpot, Amplitude (2),
+   Notion, Ahrefs, Similarweb, Klaviyo, Supermetrics, Gmail e Google Calendar (estes dois sem endereço).
+   Eles só funcionam se alguém fizer login em cada serviço. **Regra: não conectar nenhum sem aprovação
+   do Dionatan.** Gmail e Calendar dariam acesso a e-mails e agenda — não conectar.
+   O único que pode valer a pena no futuro é o **Canva** (capas e carrosséis).
+2. **Conselhos genéricos que conflitam com a nossa ética** (o plugin foi feito para empresas B2B/SaaS
+   e em inglês): criar urgência ("vagas limitadas"), depoimentos e estudos de caso de clientes,
+   "hashtags no primeiro comentário / bloco de hashtags", benchmarks de e-mail americanos.
+   **Regra: `memoria/` e as nossas skills sempre têm prioridade sobre o plugin** (ver CLAUDE.md).
+3. **Partes úteis:** `brand-review` (revisão de voz + alerta de alegações de saúde sem base),
+   `campaign-plan` (lançamento do podcast), `competitive-brief` (análise de perfis de referência),
+   `performance-report` (relatórios mensais).
+
 ## Próximo passo
 
-Para instalar qualquer item ⏳, o Dionatan precisa aprovar por escrito. Sugestão de ordem:
-1. Plugin oficial **Marketing** (Anthropic).
-2. Copiar para `.claude/skills/` só as skills de `Jakeschincariol/instagram-agent-skill`
+Para instalar qualquer item ⏳, o Dionatan precisa aprovar por escrito. Sugestão:
+1. Copiar para `.claude/skills/` só as skills de `Jakeschincariol/instagram-agent-skill`
    que não temos (`ig-comment`, `ig-reply`, `ig-dm`, `ig-story`), traduzindo e adaptando à ética.
